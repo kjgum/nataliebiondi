@@ -1,0 +1,83 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, section, p, .container {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+p {
+ padding:10px;
+ font-family: 'Lato', sans-serif;
+}
+
+.splash {
+  position: relative;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("http://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2013/9/27/0/modern-kitchen-paint-colors_4x3.jpg.rend.hgtvcom.1280.960.jpeg");
+  
+  text-align: center;
+  color: #fff;
+}
+/*
+.splash:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  background: rgba(0,0,0,0.35);
+}*/
+
+.volcano {
+  max-width: 40em;
+  margin: auto;
+  position: relative;
+  padding: 7% 0;
+  z-index: 10;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.splash-title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 2em;
+  border: 2px solid #fff;
+  border-left: 0;
+  border-right: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.splash-subtitle {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 300;
+  font-size: 1.25em;
+  line-height: 1.875rem;
+}
