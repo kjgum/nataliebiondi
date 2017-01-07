@@ -1,6 +1,9 @@
 /*------------------------------------*\
 	COMMONS CLASSES
 \*------------------------------------*/
+html {
+    font-family: 'Roboto Slab', serif;
+}
 
 h1, h2, h3, h4, h5, h6
 {
@@ -201,4 +204,13 @@ footer p
 .social
 {
     padding-top: 50px;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
 }
