@@ -46,6 +46,20 @@ span.x4:before, i.x4:before
 }
 
 
+.item {
+    background-color: white;
+    border:1px solid #cccccc;
+    padding: 3px;
+
+}
+
+.itemTitle{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 24px;
+    padding-top: 4px;
+    padding-bottom: 0px;
+}
+
 /*------------------------------------*\
 	HEADER
 \*------------------------------------*/
